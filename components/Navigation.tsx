@@ -21,7 +21,7 @@ export function Navigation() {
 
   return (
     <div className="absolute bottom-0 left-0 right-0 h-footer flex flex-col items-center justify-center px-section-padding py-0">
-      <div className="grow max-w-section w-full relative [box-shadow:inset_1px_0_0_theme(colors.border.muted),inset_-1px_0_0_theme(colors.border.muted)]">
+      <div className="grow max-w-section w-full relative border-x border-border-muted">
         <div className="flex flex-col items-center justify-center max-w-inherit overflow-hidden px-0 py-[32px] relative size-full">
           <div className="bg-background-default relative rounded-full z-[2] [box-shadow:0_0_0_1px_theme(colors.border.muted)]">
             <div className="flex items-center justify-center overflow-hidden p-[8px] relative rounded-inherit">
