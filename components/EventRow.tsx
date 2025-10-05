@@ -30,7 +30,7 @@ export function EventRow({
   return (
     <Link
       href={`/events/${eventDate}`}
-      className="bg-background-muted border-b border-border-muted w-full block group"
+      className="bg-background-muted hover:bg-background-default border-b border-border-muted w-full block group"
     >
       <div className="flex flex-col gap-small isolate items-start justify-center p-default relative w-full">
         {/* Header with Calendar */}
@@ -87,12 +87,6 @@ export function EventRow({
               </svg>
             </IconButton>
           </div>
-        </div>
-
-        {/* Interactive Background */}
-        <div className="absolute inset-0 overflow-hidden z-[1]">
-          <div className="absolute bg-background-default bottom-0 left-0 right-0 top-full transition-all duration-200 group-hover:top-1/2" />
-          <div className="absolute bg-background-default bottom-full left-0 right-0 top-0 transition-all duration-200 group-hover:bottom-1/2" />
         </div>
       </div>
     </Link>

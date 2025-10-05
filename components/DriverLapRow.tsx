@@ -43,7 +43,7 @@ export function DriverLapRow({ lap, showGap, gap, isTopThree }: DriverLapRowProp
   if (!isTopThree) {
     // Variant 4+: Simple place number, no medal, no colored border
     return (
-      <Link href={`/events/${eventDate}`} className="bg-background-muted border-b border-border-muted w-full block relative overflow-hidden group">
+      <Link href={`/events/${eventDate}`} className="bg-background-muted hover:bg-background-default border-b border-border-muted w-full block relative overflow-hidden group">
         <div className="flex gap-small isolate items-center p-default relative w-full">
           <div className="bg-background-default border border-border-muted flex flex-col items-center justify-center relative rounded-full shrink-0 size-[32px] z-[3]">
             <p className="text-body-default text-center text-content-strong leading-[24px]">
@@ -67,10 +67,6 @@ export function DriverLapRow({ lap, showGap, gap, isTopThree }: DriverLapRowProp
               </p>
             </div>
           </div>
-          <div className="absolute inset-0 overflow-hidden z-[1]">
-            <div className="absolute bg-background-default bottom-0 left-0 right-0 top-full group-hover:top-1/2 transition-all duration-300" />
-            <div className="absolute bg-background-default bottom-full left-0 right-0 top-0 group-hover:bottom-1/2 transition-all duration-300" />
-          </div>
         </div>
       </Link>
     );
@@ -78,7 +74,7 @@ export function DriverLapRow({ lap, showGap, gap, isTopThree }: DriverLapRowProp
 
   // Variant 1-3: Top 3 with medal and colored border
   return (
-    <Link href={`/events/${eventDate}`} className="bg-background-muted border-b border-border-muted w-full block relative overflow-hidden group">
+    <Link href={`/events/${eventDate}`} className="bg-background-muted hover:bg-background-default border-b border-border-muted w-full block relative overflow-hidden group">
       <div className="flex gap-small isolate items-center p-default relative w-full">
         <div className="flex isolate items-center pl-0 pr-[8px] py-0 relative shrink-0 z-[4]">
           {/* Place number */}
@@ -144,10 +140,6 @@ export function DriverLapRow({ lap, showGap, gap, isTopThree }: DriverLapRowProp
         </div>
         {/* Colored left border */}
         <div className={`absolute ${getBorderColor(lap.place || 1)} bottom-0 left-0 top-0 w-[4px] z-[2]`} />
-        <div className="absolute inset-0 overflow-hidden z-[1]">
-          <div className="absolute bg-background-default bottom-0 left-0 right-0 top-full group-hover:top-1/2 transition-all duration-300" />
-          <div className="absolute bg-background-default bottom-full left-0 right-0 top-0 group-hover:bottom-1/2 transition-all duration-300" />
-        </div>
       </div>
     </Link>
   );

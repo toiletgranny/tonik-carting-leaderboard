@@ -38,7 +38,7 @@ export function LeaderboardRow({
     return (
       <Link
         href={`/drivers/${encodeURIComponent(driverName)}`}
-        className="bg-black border-b border-border-muted w-full block hover:bg-background-default transition-colors"
+        className="bg-black border-b border-border-muted w-full block hover:bg-background-default"
       >
         <div className="flex flex-col gap-small isolate items-start justify-center p-default relative w-full">
           <div className="flex isolate items-center pr-[8px] pl-0 py-0 relative w-full z-[4]">

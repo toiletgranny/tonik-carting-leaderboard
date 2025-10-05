@@ -15,7 +15,7 @@ export function IconButton({ onClick, children, className = '', ariaLabel }: Ico
   return (
     <Component
       onClick={onClick}
-      className={`group flex items-center justify-center overflow-hidden p-0 relative rounded-[4px] shrink-0 size-[32px] hover:bg-background-strong transition-colors ${className}`}
+      className={`group flex items-center justify-center overflow-hidden p-0 relative rounded-[4px] shrink-0 size-[32px] hover:bg-background-strong ${className}`}
       {...(onClick && ariaLabel ? { 'aria-label': ariaLabel } : {})}
       {...(onClick ? { type: 'button' } : {})}
     >
