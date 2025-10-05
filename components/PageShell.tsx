@@ -1,6 +1,5 @@
 import { ReactNode } from 'react';
 import { Header } from './Header';
-import { Navigation } from './Navigation';
 
 interface PageShellProps {
   children: ReactNode;
@@ -42,7 +41,7 @@ export function PageShell({
         </div>
       </main>
 
-      <Navigation />
+      {/* Navigation moved to app/layout to persist across route changes */}
     </div>
   );
 }
