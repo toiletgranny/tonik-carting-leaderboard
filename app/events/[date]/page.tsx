@@ -1,5 +1,4 @@
-import { Header } from '@/components/Header';
-import { Navigation } from '@/components/Navigation';
+import { PageShell } from '@/components/PageShell';
 import { LapRow } from '@/components/LapRow';
 import { getEventLapTimes } from '@/lib/data/queries';
 import { getUniqueSessions } from '@/lib/utils/grouping';
@@ -31,19 +30,7 @@ export default async function EventDetailsPage({ params }: EventDetailsPageProps
   });
 
   return (
-    <div className="bg-black flex flex-col gap-px items-center relative min-h-screen">
-      <Header title={eventDate} subtitle="Event Details" showBackButton={true} />
-      
-      <main 
-        className="basis-0 bg-black flex flex-col items-center grow min-h-px min-w-px overflow-hidden px-section-padding py-0 relative w-full"
-        style={{
-          backgroundImage: 'url(/pattern.svg)',
-          backgroundRepeat: 'repeat',
-          backgroundSize: '8px 8px',
-        }}
-      >
-        <div className="basis-0 bg-black border-x border-border-muted grow max-w-section min-h-px min-w-px relative w-full">
-          <div className="flex flex-col items-start max-w-inherit overflow-x-hidden overflow-y-auto pb-footer pt-0 px-0 relative size-full">
+    <PageShell headerTitle={eventDate} headerSubtitle="Event Details" showBackButton>
             {sessions.map((sessionTime) => {
               const sessionLaps = lapTimes.filter(
                 (lap) => lap.session_time === sessionTime
@@ -97,11 +84,6 @@ export default async function EventDetailsPage({ params }: EventDetailsPageProps
                 </div>
               );
             })}
-          </div>
-        </div>
-      </main>
-
-      <Navigation />
-    </div>
+    </PageShell>
   );
 }
