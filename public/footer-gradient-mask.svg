@@ -1,0 +1,23 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 520 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect id="Mask" width="520" height="128" fill="url(#paint0_linear_76_5292)" style=""/>
+<defs>
+<linearGradient id="paint0_linear_76_5292" x1="260" y1="0" x2="260" y2="128" gradientUnits="userSpaceOnUse">
+<stop stop-opacity="0" style="stop-color:none;stop-opacity:0;"/>
+<stop offset="0.0666667" stop-opacity="0.01" style="stop-color:black;stop-opacity:0.01;"/>
+<stop offset="0.133333" stop-opacity="0.03551" style="stop-color:black;stop-opacity:0.03551;"/>
+<stop offset="0.2" stop-opacity="0.0816599" style="stop-color:black;stop-opacity:0.0816599;"/>
+<stop offset="0.266667" stop-opacity="0.147411" style="stop-color:black;stop-opacity:0.147411;"/>
+<stop offset="0.333333" stop-opacity="0.231775" style="stop-color:black;stop-opacity:0.231775;"/>
+<stop offset="0.4" stop-opacity="0.331884" style="stop-color:black;stop-opacity:0.331884;"/>
+<stop offset="0.466667" stop-opacity="0.442691" style="stop-color:black;stop-opacity:0.442691;"/>
+<stop offset="0.533333" stop-opacity="0.557309" style="stop-color:black;stop-opacity:0.557309;"/>
+<stop offset="0.6" stop-opacity="0.668116" style="stop-color:black;stop-opacity:0.668116;"/>
+<stop offset="0.666667" stop-opacity="0.768225" style="stop-color:black;stop-opacity:0.768225;"/>
+<stop offset="0.733333" stop-opacity="0.852589" style="stop-color:black;stop-opacity:0.852589;"/>
+<stop offset="0.8" stop-opacity="0.91834" style="stop-color:black;stop-opacity:0.91834;"/>
+<stop offset="0.866667" stop-opacity="0.96449" style="stop-color:black;stop-opacity:0.96449;"/>
+<stop offset="0.933333" stop-opacity="0.991353" style="stop-color:black;stop-opacity:0.991353;"/>
+<stop offset="1" style="stop-color:black;stop-opacity:1;"/>
+</linearGradient>
+</defs>
+</svg>

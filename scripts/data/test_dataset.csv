@@ -1,0 +1,1000 @@
+Date,Place,Name,Lap Time,Weight,Include
+29/08/2024 20:15,1,kosin.ski,44.956,90 kg,TRUE
+29/08/2024 20:15,2,Goszczu,45.065,90 kg,TRUE
+29/08/2024 20:15,3,babciaklozetowa,45.184,90 kg,TRUE
+29/08/2024 20:15,4,Szymon,45.667,90 kg,FALSE
+29/08/2024 20:15,5,Emil Tybura,45.695,90 kg,TRUE
+29/08/2024 20:15,6,kris,46.943,90 kg,TRUE
+29/08/2024 20:15,7,Vero,49.164,90 kg,TRUE
+29/08/2024 20:15,8,Skubi,49.496,90 kg,TRUE
+29/08/2024 20:15,9,prikariot,54.544,90 kg,TRUE
+29/08/2024 20:15,10,mag,57.419,90 kg,TRUE
+29/08/2024 20:15,11,Ola Nowicka,1:11.701,90 kg,TRUE
+29/08/2024 20:45,1,Goszczu,44.24,90 kg,TRUE
+29/08/2024 20:45,2,kosin.ski,44.632,90 kg,TRUE
+29/08/2024 20:45,3,Szymon,44.939,90 kg,FALSE
+29/08/2024 20:45,4,babciaklozetowa,45.237,90 kg,TRUE
+29/08/2024 20:45,5,Emil Tybura,45.698,90 kg,TRUE
+29/08/2024 20:45,6,kris,46.515,90 kg,TRUE
+29/08/2024 20:45,7,Skubi,47.649,90 kg,TRUE
+29/08/2024 20:45,8,Vero,47.885,90 kg,TRUE
+29/08/2024 20:45,9,mag,50.71,90 kg,TRUE
+29/08/2024 20:45,10,prikariot,51.504,90 kg,TRUE
+29/08/2024 20:45,11,Ola Nowicka,59.001,90 kg,TRUE
+29/08/2024 21:15,1,Goszczu,44.689,90 kg,TRUE
+29/08/2024 21:15,2,babciaklozetowa,45.2,90 kg,TRUE
+29/08/2024 21:15,3,Szymon,45.79,90 kg,FALSE
+29/08/2024 21:15,4,Emil Tybura,45.395,90 kg,TRUE
+29/08/2024 21:15,5,kris,45.466,90 kg,TRUE
+29/08/2024 21:15,6,kosin.ski,45.901,90 kg,TRUE
+29/08/2024 21:15,7,Vero,48.083,90 kg,TRUE
+29/08/2024 21:15,8,Skubi,48.678,90 kg,TRUE
+29/08/2024 21:15,9,mag,50.318,90 kg,TRUE
+29/08/2024 21:15,10,prikariot,49.527,90 kg,TRUE
+29/08/2024 21:15,11,Ola Nowicka,52.766,90 kg,TRUE
+16/09/2024 19:15,1,Goszczu,44.036,90 kg,TRUE
+16/09/2024 19:15,2,babciaklozetowa,44.077,90 kg,TRUE
+16/09/2024 19:15,3,Szymon,44.86,90 kg,FALSE
+16/09/2024 19:15,4,Skubi,47.076,90 kg,TRUE
+16/09/2024 19:15,5,Vero,47.159,90 kg,TRUE
+16/09/2024 19:15,6,mata,47.236,90 kg,TRUE
+16/09/2024 19:15,7,Wercel,47.352,90 kg,TRUE
+16/09/2024 19:15,8,MatZajc,47.968,90 kg,TRUE
+16/09/2024 19:15,9,Dawid,48.609,90 kg,TRUE
+16/09/2024 19:15,10,Karolina,49.699,90 kg,TRUE
+16/09/2024 19:15,11,prikariot,51.143,90 kg,TRUE
+16/09/2024 19:15,12,Martyna,51.923,90 kg,TRUE
+16/09/2024 19:15,13,mag,56.308,90 kg,TRUE
+16/09/2024 19:45,1,Goszczu,43.975,90 kg,TRUE
+16/09/2024 19:45,2,babciaklozetowa,44.014,90 kg,TRUE
+16/09/2024 19:45,3,Szymon,44.498,90 kg,FALSE
+16/09/2024 19:45,4,Vero,45.911,90 kg,TRUE
+16/09/2024 19:45,5,mata,46.175,90 kg,TRUE
+16/09/2024 19:45,6,Wercel,46.368,90 kg,TRUE
+16/09/2024 19:45,7,Skubi,46.65,90 kg,TRUE
+16/09/2024 19:45,8,MatZajc,47.301,90 kg,TRUE
+16/09/2024 19:45,9,Dawid,47.462,90 kg,TRUE
+16/09/2024 19:45,10,Martyna,48.048,90 kg,TRUE
+16/09/2024 19:45,11,prikariot,48.748,90 kg,TRUE
+16/09/2024 19:45,12,mag,50.09,90 kg,TRUE
+16/09/2024 19:45,13,Karolina,56.256,90 kg,TRUE
+16/09/2024 20:15,1,Goszczu,43.934,90 kg,TRUE
+16/09/2024 20:15,2,Szymon,43.802,90 kg,FALSE
+16/09/2024 20:15,3,babciaklozetowa,44.23,90 kg,TRUE
+16/09/2024 20:15,4,mata,45.005,90 kg,TRUE
+16/09/2024 20:15,5,Wercel,46.185,90 kg,TRUE
+16/09/2024 20:15,6,Skubi,46.481,90 kg,TRUE
+16/09/2024 20:15,7,Dawid,47.058,90 kg,TRUE
+16/09/2024 20:15,8,Vero,46.12,90 kg,TRUE
+16/09/2024 20:15,9,MatZajc,47.101,90 kg,TRUE
+16/09/2024 20:15,10,Martyna,49.043,90 kg,TRUE
+16/09/2024 20:15,11,prikariot,48.843,90 kg,TRUE
+16/09/2024 20:15,12,mag,50.028,90 kg,TRUE
+11/12/2024 19:45,1,babciaklozetowa,44.038,90 kg,TRUE
+11/12/2024 19:45,2,Łysy z Liverpoolu,44.754,90 kg,TRUE
+11/12/2024 19:45,3,adi speed,45.119,90 kg,TRUE
+11/12/2024 19:45,4,Wercel,45.761,90 kg,TRUE
+11/12/2024 19:45,5,Skubi,45.959,90 kg,TRUE
+11/12/2024 19:45,6,6esmondt,46.654,90 kg,TRUE
+11/12/2024 19:45,7,Dawid,48.222,90 kg,TRUE
+11/12/2024 19:45,8,artur,49.431,90 kg,TRUE
+11/12/2024 19:45,9,prikariot,49.821,90 kg,TRUE
+11/12/2024 19:45,10,Maciaty,55.612,90 kg,TRUE
+11/12/2024 20:15,1,babciaklozetowa,43.838,90 kg,TRUE
+11/12/2024 20:15,2,adi speed,44.561,90 kg,TRUE
+11/12/2024 20:15,3,Łysy z Liverpoolu,44.658,90 kg,TRUE
+11/12/2024 20:15,4,Wercel,45.139,90 kg,TRUE
+11/12/2024 20:15,5,Skubi,45.298,90 kg,TRUE
+11/12/2024 20:15,6,6esmondt,45.468,90 kg,TRUE
+11/12/2024 20:15,7,Dawid,47.113,90 kg,TRUE
+11/12/2024 20:15,8,artur,47.386,90 kg,TRUE
+11/12/2024 20:15,9,prikariot,48.781,90 kg,TRUE
+11/12/2024 20:15,10,Maciaty,52.304,90 kg,TRUE
+11/12/2024 20:45,1,babciaklozetowa,44.056,90 kg,TRUE
+11/12/2024 20:45,2,adi speed,45.112,90 kg,TRUE
+11/12/2024 20:45,3,Skubi,45.739,90 kg,TRUE
+11/12/2024 20:45,4,Łysy z Liverpoolu,45.293,90 kg,TRUE
+11/12/2024 20:45,5,Wercel,46.462,90 kg,TRUE
+11/12/2024 20:45,6,Dawid,48.234,90 kg,TRUE
+11/12/2024 20:45,7,prikariot,47.327,90 kg,TRUE
+11/12/2024 20:45,8,artur,47.623,90 kg,TRUE
+11/12/2024 20:45,9,6esmondt,44.955,90 kg,TRUE
+11/12/2024 20:45,10,Maciaty,52.447,90 kg,TRUE
+02/04/2025 20:15,1,kosin.ski,44.725,90 kg,TRUE
+02/04/2025 20:15,2,babciaklozetowa,44.929,90 kg,TRUE
+02/04/2025 20:15,3,Wercel,45.571,90 kg,TRUE
+02/04/2025 20:15,4,Skubi,45.609,90 kg,TRUE
+02/04/2025 20:15,5,kris,45.872,90 kg,TRUE
+02/04/2025 20:15,6,JJ,46.039,90 kg,TRUE
+02/04/2025 20:15,7,6esmondt,46.092,90 kg,TRUE
+02/04/2025 20:15,8,Paolo Fant,46.241,90 kg,FALSE
+02/04/2025 20:15,9,g,54.094,90 kg,TRUE
+02/04/2025 20:45,1,kosin.ski,44.638,90 kg,TRUE
+02/04/2025 20:45,2,babciaklozetowa,44.664,90 kg,TRUE
+02/04/2025 20:45,3,Wercel,45.056,90 kg,TRUE
+02/04/2025 20:45,4,kris,45.221,90 kg,TRUE
+02/04/2025 20:45,5,Skubi,45.265,90 kg,TRUE
+02/04/2025 20:45,6,JJ,45.39,90 kg,TRUE
+02/04/2025 20:45,7,Paolo Fant,45.457,90 kg,FALSE
+02/04/2025 20:45,8,6esmondt,45.555,90 kg,TRUE
+02/04/2025 20:45,9,g,51.204,90 kg,TRUE
+02/04/2025 21:15,1,kosin.ski,45.301,90 kg,TRUE
+02/04/2025 21:15,2,babciaklozetowa,44.903,90 kg,TRUE
+02/04/2025 21:15,3,Wercel,45.849,90 kg,TRUE
+02/04/2025 21:15,4,6esmondt,45.126,90 kg,TRUE
+02/04/2025 21:15,5,Paolo Fant,45.343,90 kg,FALSE
+02/04/2025 21:15,6,Skubi,45.806,90 kg,TRUE
+02/04/2025 21:15,7,kris,45.581,90 kg,TRUE
+02/04/2025 21:15,8,JJ,45.687,90 kg,TRUE
+02/04/2025 21:15,9,g,49.248,90 kg,TRUE
+02/10/2025 19:15,1,Emil Tybura,44.619,90 kg,TRUE
+02/10/2025 19:15,2,Skubi,44.929,90 kg,TRUE
+02/10/2025 19:15,3,JJ,45.546,90 kg,TRUE
+02/10/2025 19:15,4,Vero,46.946,90 kg,TRUE
+02/10/2025 19:15,5,Martyna,47.064,90 kg,TRUE
+02/10/2025 19:15,6,Stary,49.208,90 kg,TRUE
+02/10/2025 19:15,7,żenia,49.357,90 kg,TRUE
+02/10/2025 19:15,8,Franek Fuks,49.502,90 kg,TRUE
+02/10/2025 19:15,9,mat,51.542,90 kg,TRUE
+02/10/2025 19:15,10,Hubert M,1:05.184,90 kg,TRUE
+02/10/2025 19:45,1,Emil Tybura,44.621,90 kg,TRUE
+02/10/2025 19:45,2,JJ,44.717,90 kg,TRUE
+02/10/2025 19:45,3,Skubi,45.412,90 kg,TRUE
+02/10/2025 19:45,4,Vero,46.564,90 kg,TRUE
+02/10/2025 19:45,5,Franek Fuks,46.832,90 kg,TRUE
+02/10/2025 19:45,6,Stary,47.203,90 kg,TRUE
+02/10/2025 19:45,7,Martyna,48.068,90 kg,TRUE
+02/10/2025 19:45,8,mat,49.72,90 kg,TRUE
+02/10/2025 19:45,9,żenia,51.008,90 kg,TRUE
+02/10/2025 19:45,10,Hubert M,56.268,90 kg,TRUE
+02/10/2025 20:15,1,Emil Tybura,44.995,90 kg,TRUE
+02/10/2025 20:15,2,JJ,44.682,90 kg,TRUE
+02/10/2025 20:15,3,Skubi,45.811,90 kg,TRUE
+02/10/2025 20:15,4,Stary,47.807,90 kg,TRUE
+02/10/2025 20:15,5,Martyna,46.813,90 kg,TRUE
+02/10/2025 20:15,6,Franek Fuks,46.236,90 kg,TRUE
+02/10/2025 20:15,7,mat,46.119,90 kg,TRUE
+02/10/2025 20:15,8,Vero,46.618,90 kg,TRUE
+02/10/2025 20:15,9,żenia,50.336,90 kg,TRUE
+02/10/2025 20:15,10,Hubert M,54.146,90 kg,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE
+,,,,,TRUE

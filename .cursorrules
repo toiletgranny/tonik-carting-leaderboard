@@ -1,0 +1,91 @@
+# Tonik Carting Leaderboard - Development Rules
+
+## 🎨 CRITICAL: Figma-First Workflow
+
+### Before Implementing ANY Component:
+1. **ALWAYS inspect the component in Figma using MCP tools** (`mcp_Figma_Desktop_get_code`, `mcp_Figma_Desktop_get_screenshot`)
+2. **NEVER implement from memory or assumptions** - always verify against Figma designs
+3. **Study the component's states** (default, hover, active) if they exist
+
+### Design System Compliance:
+- **NEVER use hardcoded color values** (e.g., `#ffffff`, `#1a1a1a`)
+- **ALWAYS use Tailwind design variables** from `tailwind.config.ts`:
+  - Colors: `bg-background-default`, `text-content-strong`, `border-border-muted`, etc.
+  - Spacing: `gap-small`, `p-default`, `gap-large`
+  - Typography: `text-body-default`, `text-body-large`, `text-body-small`
+  - Max-width: `max-w-section`
+  - Font family: Already set as default in config
+
+### Figma Variable Mapping:
+```
+Figma Variable → Tailwind Class
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Background/Muted (#000000) → bg-background-muted
+Background/Default (#0f0f0f) → bg-background-default
+Background/Strong (#1a1a1a) → bg-background-strong
+Border/Muted (#1a1a1a) → border-border-muted
+Border/Strong (#242424) → border-border-strong
+Content/Default (#999999) → text-content-default
+Content/Strong (#ffffff) → text-content-strong
+Accent/Red (#b3393d) → bg-accent-red / text-accent-red
+Accent/Gold (#d0af55) → bg-accent-gold
+Accent/Silver (#cdcdcd) → bg-accent-silver
+Accent/Bronze (#845018) → bg-accent-bronze
+Spacing/Small (16px) → gap-small / p-small
+Spacing/Default (24px) → gap-default / p-default
+Spacing/Large (48px) → gap-large / p-large
+```
+
+### Implementation Process:
+1. **Get Figma screenshot** to understand visual appearance
+2. **Get Figma code** to extract exact specs (sizes, spacing, colors)
+3. **Get Figma variable definitions** to see which design tokens are used
+4. **Implement using Tailwind classes** that map to those variables
+5. **Verify pixel-perfect accuracy** against Figma screenshot
+
+## 🔧 Technical Standards
+
+### Component Structure:
+- Extract reusable components (e.g., `Calendar`, `Navigation`)
+- Use proper TypeScript types for props
+- Follow Next.js 14 App Router conventions
+- Use `'use client'` directive only when necessary
+
+### Styling:
+- Use Tailwind CSS exclusively
+- Use box-shadow instead of borders to prevent layout shifts when needed
+- Use `overflow-hidden` for clipping rounded corners
+- Maintain responsive design principles
+
+### Data Fetching:
+- Use Supabase for all data operations
+- Implement proper error handling
+- Use server components by default, client components only when needed
+
+## 📝 Code Quality
+
+### Best Practices:
+- If two pieces of identical code exist, extract into one abstraction
+- Prefer clarity over cleverness
+- Use meaningful variable and function names
+- Add comments only for "why", not "what"
+
+### Before Submitting:
+- Verify all Figma design variables are used (not hardcoded values)
+- Check that implementation matches Figma pixel-perfectly
+- Ensure hover states, active states work as designed
+- Test on actual browser when possible
+
+## 🚫 Never Do This:
+- ❌ Use hex colors directly in code (e.g., `bg-[#1a1a1a]`)
+- ❌ Implement components without checking Figma first
+- ❌ Guess spacing values instead of using design tokens
+- ❌ Skip hover/active states if they exist in Figma
+- ❌ Use arbitrary values when a design token exists
+
+## ✅ Always Do This:
+- ✅ Use Figma MCP tools to inspect before implementing
+- ✅ Use Tailwind config variables for all styles
+- ✅ Match Figma designs pixel-perfectly
+- ✅ Verify all component states (default, hover, active)
+- ✅ Test the implementation against Figma screenshots
