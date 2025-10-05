@@ -1,6 +1,6 @@
 import { Header } from '@/components/Header';
 import { Navigation } from '@/components/Navigation';
-import { SessionTimeRow } from '@/components/SessionTimeRow';
+import { LapRow } from '@/components/LapRow';
 import { getEventLapTimes } from '@/lib/data/queries';
 import { getUniqueSessions } from '@/lib/utils/grouping';
 import { notFound } from 'next/navigation';
@@ -83,12 +83,13 @@ export default async function EventDetailsPage({ params }: EventDetailsPageProps
                         : undefined;
 
                       return (
-                        <SessionTimeRow
+                        <LapRow
                           key={`${lap.driver_name}-${lap.place}`}
                           lap={lap}
                           showGap={showGap}
                           gap={gap}
                           isTopThree={isTopThree}
+                          variant="session"
                         />
                       );
                     })}

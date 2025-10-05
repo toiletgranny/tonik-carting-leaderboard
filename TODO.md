@@ -5,5 +5,5 @@
 [ ] Fix the icons in the footer. The current ones are not consistent with the Figma design
 [ ] Fix the gradient in the footer to include borders
 [x] Take care of the loading state
-[ ] Approach hover states globally
+[o] Approach hover states globally
 [ ] Mobile designs

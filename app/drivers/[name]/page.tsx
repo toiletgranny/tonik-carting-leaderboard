@@ -1,7 +1,7 @@
 import { Header } from '@/components/Header';
 import { Navigation } from '@/components/Navigation';
 import { Calendar } from '@/components/Calendar';
-import { DriverLapRow } from '@/components/DriverLapRow';
+import { LapRow } from '@/components/LapRow';
 import { getDriverStats } from '@/lib/data/queries';
 import { formatLapTime } from '@/lib/utils/time';
 import { groupByEvent } from '@/lib/utils/grouping';
@@ -148,12 +148,13 @@ export default async function DriverDetailsPage({ params }: DriverDetailsPagePro
                           : undefined;
 
                         return (
-                          <DriverLapRow
+                          <LapRow
                             key={`${lap.session_time}-${lap.place}`}
                             lap={lap}
                             showGap={showGap}
                             gap={gap}
                             isTopThree={isTopThree}
+                            variant="driver"
                           />
                         );
                       })}

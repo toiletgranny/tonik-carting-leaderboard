@@ -3,14 +3,17 @@
 import Link from 'next/link';
 import { LapTime } from '@/lib/supabase/types';
 
-interface DriverLapRowProps {
+interface LapRowProps {
   lap: LapTime;
   showGap: boolean;
   gap?: string;
   isTopThree: boolean;
+  // session: used on event details pages → links to driver and shows driver name
+  // driver: used on driver details pages → links to event and shows session time
+  variant: 'session' | 'driver';
 }
 
-export function DriverLapRow({ lap, showGap, gap, isTopThree }: DriverLapRowProps) {
+export function LapRow({ lap, showGap, gap, isTopThree, variant }: LapRowProps) {
   const getMedalColor = (place: number) => {
     switch (place) {
       case 1:
@@ -37,13 +40,26 @@ export function DriverLapRow({ lap, showGap, gap, isTopThree }: DriverLapRowProp
     }
   };
 
-  // Extract event date from the lap's date (YYYY-MM-DD format)
-  const eventDate = lap.date.split('T')[0];
+  const { href, title } = (() => {
+    if (variant === 'session') {
+      return {
+        href: `/drivers/${encodeURIComponent(lap.driver_name)}`,
+        title: lap.driver_name,
+      };
+    }
+
+    // variant === 'driver'
+    const eventDate = lap.date.split('T')[0];
+    return {
+      href: `/events/${eventDate}`,
+      title: lap.session_time,
+    };
+  })();
 
   if (!isTopThree) {
     // Variant 4+: Simple place number, no medal, no colored border
     return (
-      <Link href={`/events/${eventDate}`} className="bg-background-muted hover:bg-background-default border-b border-border-muted w-full block relative overflow-hidden group">
+      <Link href={href} className="bg-background-muted hover:bg-background-default border-b border-border-muted w-full block relative overflow-hidden group">
         <div className="flex gap-small isolate items-center p-default relative w-full">
           <div className="bg-background-default border border-border-muted flex flex-col items-center justify-center relative rounded-full shrink-0 size-[32px] z-[3]">
             <p className="text-body-default text-center text-content-strong leading-[24px]">
@@ -53,7 +69,7 @@ export function DriverLapRow({ lap, showGap, gap, isTopThree }: DriverLapRowProp
           <div className="basis-0 flex gap-[8px] grow items-start min-h-px min-w-px relative shrink-0 z-[2]">
             <div className="basis-0 flex flex-col gap-[4px] grow items-start min-h-px min-w-px relative shrink-0">
               <p className="text-body-default text-content-strong leading-[24px] overflow-ellipsis overflow-hidden whitespace-nowrap w-full">
-                {lap.session_time}
+                {title}
               </p>
             </div>
             <div className="flex gap-[8px] items-baseline justify-end relative shrink-0">
@@ -74,7 +90,7 @@ export function DriverLapRow({ lap, showGap, gap, isTopThree }: DriverLapRowProp
 
   // Variant 1-3: Top 3 with medal and colored border
   return (
-    <Link href={`/events/${eventDate}`} className="bg-background-muted hover:bg-background-default border-b border-border-muted w-full block relative overflow-hidden group">
+    <Link href={href} className="bg-background-muted hover:bg-background-default border-b border-border-muted w-full block relative overflow-hidden group">
       <div className="flex gap-small isolate items-center p-default relative w-full">
         <div className="flex isolate items-center pl-0 pr-[8px] py-0 relative shrink-0 z-[4]">
           {/* Place number */}
@@ -124,7 +140,7 @@ export function DriverLapRow({ lap, showGap, gap, isTopThree }: DriverLapRowProp
         <div className="basis-0 flex gap-[8px] grow items-start min-h-px min-w-px relative shrink-0 z-[3]">
           <div className="basis-0 flex flex-col gap-[4px] grow items-start min-h-px min-w-px relative shrink-0">
             <p className="text-body-default text-content-strong leading-[24px] overflow-ellipsis overflow-hidden whitespace-nowrap w-full">
-              {lap.session_time}
+              {title}
             </p>
           </div>
           <div className="flex gap-[8px] items-baseline justify-end relative shrink-0">
@@ -144,3 +160,5 @@ export function DriverLapRow({ lap, showGap, gap, isTopThree }: DriverLapRowProp
     </Link>
   );
 }
+
+
