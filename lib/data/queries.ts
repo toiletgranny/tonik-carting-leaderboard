@@ -75,8 +75,10 @@ export async function getEventsSummary(): Promise<EventSummaryWithDriver[]> {
   }
 
   // Get the fastest driver for each event
+  const typedSummary: EventSummary[] = summaryData as unknown as EventSummary[];
+
   const eventsWithDrivers: EventSummaryWithDriver[] = await Promise.all(
-    summaryData.map(async (event): Promise<EventSummaryWithDriver> => {
+    typedSummary.map(async (event: EventSummary): Promise<EventSummaryWithDriver> => {
       const { data: fastestLap, error: lapError } = await supabase
         .from('lap_times')
         .select('driver_name')
