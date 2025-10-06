@@ -7,7 +7,7 @@ export default function NotFound() {
       <div className="flex flex-col items-center justify-center max-w-inherit overflow-x-hidden overflow-y-auto pb-footer pt-0 px-0 relative size-full">
         <div className="flex flex-col gap-default items-center p-default text-center">
           <p className="text-body-large text-content-default">
-            The page you're looking for doesn't exist.
+            The page you&apos;re looking for doesn&apos;t exist.
           </p>
           <Link
             href="/"
