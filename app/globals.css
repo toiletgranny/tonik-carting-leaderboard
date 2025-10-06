@@ -1,3 +1,22 @@
+/* N27 Font Face Definitions */
+@font-face {
+  font-family: 'N27';
+  src: url('/fonts/n27/N27-Regular.woff2') format('woff2'),
+       url('/fonts/n27/N27-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'N27';
+  src: url('/fonts/n27/N27-Medium.woff2') format('woff2'),
+       url('/fonts/n27/N27-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
