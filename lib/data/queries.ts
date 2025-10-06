@@ -147,7 +147,7 @@ export async function getDriverStats(driverName: string) {
 /**
  * Get all unique driver names
  */
-export async function getDriverNames() {
+export async function getDriverNames(): Promise<string[]> {
   const { data, error } = await supabase
     .from('lap_times')
     .select('driver_name')
@@ -158,10 +158,8 @@ export async function getDriverNames() {
     throw error;
   }
 
-  const uniqueNames = Array.from(
-    new Set(data?.map((item) => item.driver_name) || [])
-  );
-
+  const rows = (data ?? []) as { driver_name: string }[];
+  const uniqueNames = Array.from(new Set(rows.map((row) => row.driver_name)));
   return uniqueNames.sort();
 }
 
