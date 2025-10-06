@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { LapTime } from '@/lib/supabase/types';
 
 interface LapRowProps {
@@ -115,9 +116,11 @@ export function LapRow({ lap, showGap, gap, isTopThree, variant }: LapRowProps) 
                   WebkitMaskPosition: 'center',
                 }}
               >
-                <img 
-                  src="/trophy.png" 
-                  alt="Trophy" 
+                <Image
+                  src="/trophy.png"
+                  alt="Trophy"
+                  width={24}
+                  height={24}
                   className="w-full h-full object-contain"
                 />
               </div>

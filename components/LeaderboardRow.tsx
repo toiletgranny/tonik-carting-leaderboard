@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface LeaderboardRowProps {
   place: number;
@@ -62,9 +63,11 @@ export function LeaderboardRow({
                     WebkitMaskPosition: 'center',
                   }}
                 >
-                  <img 
-                    src="/trophy.png" 
-                    alt="Trophy" 
+                  <Image
+                    src="/trophy.png"
+                    alt="Trophy"
+                    width={24}
+                    height={24}
                     className="w-full h-full object-contain"
                   />
                 </div>
