@@ -87,7 +87,7 @@ export async function getEventsSummary(): Promise<EventSummaryWithDriver[]> {
         .lt('date', `${event.event_date}T23:59:59`)
         .order('lap_time_seconds', { ascending: true })
         .limit(1)
-        .single();
+        .maybeSingle();
 
       if (lapError) {
         console.error('Error fetching fastest lap for event:', lapError);
@@ -95,7 +95,7 @@ export async function getEventsSummary(): Promise<EventSummaryWithDriver[]> {
 
       return {
         ...event,
-        fastest_driver: fastestLap?.driver_name || 'Unknown',
+        fastest_driver: (fastestLap as { driver_name: string } | null)?.driver_name || 'Unknown',
       };
     })
   );
