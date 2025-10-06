@@ -177,8 +177,9 @@ export async function getEventDates() {
     throw error;
   }
 
+  const rows = (data ?? []) as { date: string }[];
   const uniqueDates = Array.from(
-    new Set(data?.map((item) => item.date.split('T')[0]) || [])
+    new Set(rows.map((item) => item.date.split('T')[0]))
   );
 
   return uniqueDates.sort((a, b) => b.localeCompare(a)); // Descending
