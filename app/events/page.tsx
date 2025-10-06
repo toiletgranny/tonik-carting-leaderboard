@@ -1,11 +1,12 @@
 import { PageShell } from '@/components/PageShell';
 import { EventRow } from '@/components/EventRow';
 import { getEventsSummary } from '@/lib/data/queries';
+import type { EventSummaryWithDriver } from '@/lib/supabase/types';
 
 export const revalidate = 60;
 
 export default async function EventsPage() {
-  const events = await getEventsSummary();
+  const events: EventSummaryWithDriver[] = await getEventsSummary();
 
   return (
     <PageShell headerTitle="Events">
@@ -14,7 +15,7 @@ export default async function EventsPage() {
           <p className="text-content-default">No events recorded yet.</p>
         </div>
       ) : (
-        events.map((event) => (
+        events.map((event: EventSummaryWithDriver) => (
           <EventRow
             key={event.event_date}
             eventDate={event.event_date}

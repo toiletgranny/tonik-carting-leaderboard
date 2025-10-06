@@ -1,5 +1,5 @@
 import { supabase } from '../supabase/client';
-import { LapTime, LeaderboardEntry, EventSummary } from '../supabase/types';
+import { LapTime, LeaderboardEntry, EventSummary, EventSummaryWithDriver } from '../supabase/types';
 import { groupByDriver, sortByLapTime } from '../utils/grouping';
 
 /**
@@ -59,7 +59,7 @@ export async function getLapTimes(options?: {
 /**
  * Get events summary with fastest driver info
  */
-export async function getEventsSummary() {
+export async function getEventsSummary(): Promise<EventSummaryWithDriver[]> {
   const { data: summaryData, error: summaryError } = await supabase
     .from('events_summary')
     .select('*')
@@ -75,8 +75,8 @@ export async function getEventsSummary() {
   }
 
   // Get the fastest driver for each event
-  const eventsWithDrivers = await Promise.all(
-    summaryData.map(async (event) => {
+  const eventsWithDrivers: EventSummaryWithDriver[] = await Promise.all(
+    summaryData.map(async (event): Promise<EventSummaryWithDriver> => {
       const { data: fastestLap, error: lapError } = await supabase
         .from('lap_times')
         .select('driver_name')

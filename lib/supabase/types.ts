@@ -76,3 +76,4 @@ export interface Database {
 export type LapTime = Database['public']['Tables']['lap_times']['Row']
 export type LeaderboardEntry = Database['public']['Views']['leaderboard']['Row']
 export type EventSummary = Database['public']['Views']['events_summary']['Row']
+export type EventSummaryWithDriver = EventSummary & { fastest_driver: string }
