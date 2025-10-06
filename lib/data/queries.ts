@@ -6,7 +6,7 @@ import { groupByDriver, sortByLapTime } from '../utils/grouping';
  * Get leaderboard data with time deltas
  * Returns best lap time for each driver, sorted by time
  */
-export async function getLeaderboard() {
+export async function getLeaderboard(): Promise<LeaderboardEntry[]> {
   const { data, error } = await supabase
     .from('leaderboard')
     .select('*')
@@ -17,7 +17,7 @@ export async function getLeaderboard() {
     throw error;
   }
 
-  return data || [];
+  return (data || []) as LeaderboardEntry[];
 }
 
 /**

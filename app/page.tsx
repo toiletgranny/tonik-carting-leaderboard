@@ -1,12 +1,13 @@
 import { PageShell } from '@/components/PageShell';
 import { LeaderboardRow } from '@/components/LeaderboardRow';
 import { getLeaderboard } from '@/lib/data/queries';
+import type { LeaderboardEntry } from '@/lib/supabase/types';
 import { formatDate, calculateTimeDelta } from '@/lib/utils/time';
 
 export const revalidate = 60; // Revalidate every 60 seconds
 
 export default async function LeaderboardPage() {
-  const leaderboard = await getLeaderboard();
+  const leaderboard: LeaderboardEntry[] = await getLeaderboard();
 
   return (
     <PageShell headerTitle="Leaderboard">
@@ -15,7 +16,7 @@ export default async function LeaderboardPage() {
           <p className="text-content-default">No lap times recorded yet.</p>
         </div>
       ) : (
-        leaderboard.map((entry, index) => {
+        leaderboard.map((entry: LeaderboardEntry, index: number) => {
           const place = index + 1;
           const showGap = place > 1;
           const gap = showGap
