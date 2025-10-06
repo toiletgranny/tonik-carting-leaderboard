@@ -38,22 +38,34 @@ const config: Config = {
         sans: ["N27", "sans-serif"],
       },
       fontSize: {
-        // Body sizes
-        "body-small": ["12px", { lineHeight: "16px", letterSpacing: "0.1px" }],
-        "body-default": ["16px", { lineHeight: "24px", letterSpacing: "0px" }],
-        "body-large": ["20px", { lineHeight: "28px", letterSpacing: "0px" }],
+        // Body sizes (CSS variables for responsive tokens)
+        "body-small": [
+          "var(--fs-body-small)",
+          { lineHeight: "var(--lh-body-small)", letterSpacing: "var(--ls-body-small)" }
+        ],
+        "body-default": [
+          "var(--fs-body-default)",
+          { lineHeight: "var(--lh-body-default)", letterSpacing: "var(--ls-body-default)" }
+        ],
+        "body-large": [
+          "var(--fs-body-large)",
+          { lineHeight: "var(--lh-body-large)", letterSpacing: "var(--ls-body-large)" }
+        ],
         // Title
-        title: ["48px", { lineHeight: "48px", letterSpacing: "-0.2px" }],
+        title: [
+          "var(--fs-title)",
+          { lineHeight: "var(--lh-title)", letterSpacing: "var(--ls-title)" }
+        ],
       },
       spacing: {
-        small: "16px",
-        default: "24px",
-        large: "48px",
-        footer: "128px",
-        "section-padding": "32px",
+        small: "var(--space-small)",
+        default: "var(--space-default)",
+        large: "var(--space-large)",
+        footer: "var(--space-footer)",
+        "section-padding": "var(--space-section-padding)",
       },
       maxWidth: {
-        section: "520px",
+        section: "var(--maxw-section)",
       },
     },
   },
