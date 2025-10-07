@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Navigation } from "@/components/Navigation";
+import { NavigationProvider } from "@/components/NavigationContext";
 
 export const metadata: Metadata = {
   title: "Tonik Carting Leaderboard",
@@ -15,8 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {children}
-        <Navigation />
+        <NavigationProvider>
+          {children}
+          <Navigation />
+        </NavigationProvider>
       </body>
     </html>
   );

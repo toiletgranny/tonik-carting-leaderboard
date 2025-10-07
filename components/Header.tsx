@@ -4,6 +4,8 @@ import { Logo } from './Logo';
 import { IconButton } from './IconButton';
 import { useRouter } from 'next/navigation';
 import { Skeleton } from './Skeleton';
+import { PageTransition } from './PageTransition';
+import { useNavigation } from './NavigationContext';
 
 interface HeaderProps {
   title: string;
@@ -14,6 +16,14 @@ interface HeaderProps {
 
 export function Header({ title, subtitle = "Le Mans Jaryszki ・ 90 kg", showBackButton = false, isLoading = false }: HeaderProps) {
   const router = useRouter();
+  const { setDirection } = useNavigation();
+
+  const handleBackClick = () => {
+    setDirection('back');
+    router.back();
+    // Reset to forward after animation completes
+    setTimeout(() => setDirection('forward'), 300);
+  };
 
   return (
     <div className="bg-background-muted border-b border-border-muted w-full">
@@ -23,7 +33,7 @@ export function Header({ title, subtitle = "Le Mans Jaryszki ・ 90 kg", showBac
             {showBackButton && (
               <div className="flex items-center h-full">
                 <div className="flex gap-[8px] h-full items-center relative shrink-0">
-                  <IconButton onClick={() => router.back()} ariaLabel="Go back">
+                  <IconButton onClick={handleBackClick} ariaLabel="Go back">
                     <svg 
                       width="24" 
                       height="24" 
@@ -54,9 +64,11 @@ export function Header({ title, subtitle = "Le Mans Jaryszki ・ 90 kg", showBac
             {isLoading ? (
               <Skeleton className="h-[48px] rounded-[4px] shrink-0 w-[256px]" />
             ) : (
+              <PageTransition>
               <h1 className="text-title text-content-strong w-full">
                 {title}
               </h1>
+              </PageTransition>
             )}
           </div>
         </div>

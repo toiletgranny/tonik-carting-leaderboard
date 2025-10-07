@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState, useEffect, useRef, useLayoutEffect, useCallback } from 'react';
+import { motion } from 'framer-motion';
 
 export function Navigation() {
   const [activeTab, setActiveTab] = useState<'leaderboard' | 'events'>('leaderboard');
@@ -64,9 +65,13 @@ export function Navigation() {
           <div className="bg-background-default relative rounded-full z-[2] [box-shadow:0_0_0_1px_theme(colors.border.muted)]">
             <div ref={containerRef} className="relative flex items-center justify-center overflow-hidden p-[8px] rounded-inherit">
               {/* Sliding indicator behind labels */}
-              <div
-                className={`absolute top-[8px] bottom-[8px] rounded-full bg-background-strong [box-shadow:0_0_0_1px_theme(colors.border.strong)] ${shouldAnimate ? 'transition-[left,width] duration-300 ease-[cubic-bezier(0.34,1.56,0.64,1)]' : 'transition-none'}`}
-                style={{ left: indicatorStyle.left, width: indicatorStyle.width }}
+              <motion.div
+                className="absolute top-[8px] bottom-[8px] rounded-full bg-background-strong [box-shadow:0_0_0_1px_theme(colors.border.strong)]"
+                animate={{ left: indicatorStyle.left, width: indicatorStyle.width }}
+                transition={shouldAnimate ? { 
+                  duration: 0.2,
+                  ease: [0.25, 0.1, 0.25, 1]
+                } : { duration: 0 }}
               />
               <Link href="/" onClick={() => handleTabClick('leaderboard')}>
                 <button

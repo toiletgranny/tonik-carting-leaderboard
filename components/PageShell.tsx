@@ -1,5 +1,6 @@
 import { ReactNode } from 'react';
 import { Header } from './Header';
+import { PageTransition } from './PageTransition';
 
 interface PageShellProps {
   children: ReactNode;
@@ -38,7 +39,13 @@ export function PageShell({
       >
         <div className="basis-0 bg-background-muted border-x border-border-muted grow max-w-section min-h-0 min-w-px relative w-full h-full">
           <div className={contentClassName ?? "flex flex-col items-start max-w-inherit overflow-x-hidden overflow-y-auto pb-footer pt-0 px-0 relative w-full h-full [-webkit-overflow-scrolling:touch] [touch-action:pan-y]"}>
-            {children}
+            {headerIsLoading ? (
+              children
+            ) : (
+              <PageTransition>
+                {children}
+              </PageTransition>
+            )}
           </div>
         </div>
       </main>
