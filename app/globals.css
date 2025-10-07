@@ -69,6 +69,7 @@
       --space-small: 12px;
       --space-default: 20px;
       --space-large: 32px;
+      --space-footer: 64px;
       --space-section-padding: 16px;
 
       --maxw-section: 400px;
@@ -106,10 +107,4 @@
   .mask-no-repeat {
     mask-repeat: no-repeat;
   }
-}
-
-html {
-  height: 50vh;
-  width: 100vw;
-  overflow: hidden;
 }
