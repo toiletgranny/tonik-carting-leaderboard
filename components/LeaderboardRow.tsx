@@ -40,7 +40,7 @@ export function LeaderboardRow({
       <Link
         prefetch={false}
         href={`/drivers/${encodeURIComponent(driverName)}`}
-        className="bg-black border-b border-border-muted w-full block hover:bg-background-default"
+        className="bg-background-muted border-b border-border-muted w-full block hover:bg-background-default"
       >
         <div className="flex flex-col gap-small isolate items-start justify-center p-default relative w-full">
           <div className="flex isolate items-center pr-[8px] pl-0 py-0 relative w-full z-[4]">
@@ -118,7 +118,7 @@ export function LeaderboardRow({
     <Link
       prefetch={false}
       href={`/drivers/${encodeURIComponent(driverName)}`}
-      className="bg-black border-b border-border-muted w-full block hover:bg-background-default"
+      className="bg-background-muted border-b border-border-muted w-full block hover:bg-background-default"
     >
       <div className="flex gap-small isolate items-center overflow-hidden p-default relative w-full">
         <div className="bg-background-default border border-border-muted flex flex-col gap-[8px] items-center justify-center p-[8px] relative rounded-full shrink-0 size-[40px] z-[3]">

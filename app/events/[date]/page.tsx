@@ -48,7 +48,7 @@ export default async function EventDetailsPage({ params }: EventDetailsPageProps
                   <div className="flex flex-col isolate items-start relative w-full">
                     {/* Session header - sticky */}
                     <div 
-                      className="bg-black border-b border-border-muted shrink-0 sticky top-0 w-full z-[12]"
+                      className="bg-background-muted border-b border-border-muted shrink-0 sticky top-0 w-full z-[12]"
                       style={{
                         backgroundImage: 'url(/pattern.svg)',
                         backgroundRepeat: 'repeat',

@@ -36,7 +36,7 @@ export default async function DriverDetailsPage({ params }: DriverDetailsPagePro
               <div className="flex flex-col isolate items-start overflow-hidden relative w-full">
                 {/* Statistics header - sticky */}
                 <div 
-                  className="bg-black border-b border-border-muted shrink-0 sticky top-0 w-full"
+                  className="bg-background-muted border-b border-border-muted shrink-0 sticky top-0 w-full"
                   style={{
                     backgroundImage: 'url(/pattern.svg)',
                     backgroundRepeat: 'repeat',
@@ -112,7 +112,7 @@ export default async function DriverDetailsPage({ params }: DriverDetailsPagePro
                     <div className="flex flex-col isolate items-start relative w-full">
                       {/* Event header - sticky */}
                       <div 
-                        className="bg-black border-b border-border-muted shrink-0 sticky top-0 w-full z-[4]"
+                        className="bg-background-muted border-b border-border-muted shrink-0 sticky top-0 w-full z-[4]"
                         style={{
                           backgroundImage: 'url(/pattern.svg)',
                           backgroundRepeat: 'repeat',

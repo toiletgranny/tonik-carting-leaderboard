@@ -16,7 +16,7 @@ export function Header({ title, subtitle = "Le Mans Jaryszki ・ 90 kg", showBac
   const router = useRouter();
 
   return (
-    <div className="bg-black border-b border-border-muted w-full">
+    <div className="bg-background-muted border-b border-border-muted w-full">
       <div className="flex flex-col items-center justify-center px-section-padding py-0">
         <div className="flex flex-col gap-default items-start max-w-section overflow-hidden px-0 py-large w-full">
           <div className="flex gap-small items-center">
