@@ -54,7 +54,7 @@ const config: Config = {
         // Title
         title: [
           "var(--fs-title)",
-          { lineHeight: "var(--lh-title)", letterSpacing: "var(--ls-title)" }
+          { fontWeight: "500", lineHeight: "var(--lh-title)", letterSpacing: "var(--ls-title)" }
         ],
       },
       spacing: {

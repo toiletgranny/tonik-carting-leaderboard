@@ -41,25 +41,25 @@ export function EventRow({
         {/* Content */}
         <div className="flex gap-[8px] items-start relative shrink-0 w-full z-[2]">
           <div className="basis-0 flex flex-col gap-[4px] grow items-start min-h-px min-w-px relative shrink-0">
-            <p className="text-body-large leading-[28px] text-content-strong uppercase w-full">
+            <p className="text-body-large text-content-strong uppercase w-full">
               {formattedDate}
             </p>
             <div className="flex flex-wrap gap-[4px] items-start relative shrink-0 w-full">
-              <div className="flex gap-[4px] items-center text-body-small leading-[16px] text-content-default tracking-[0.1px] whitespace-nowrap">
+              <div className="flex gap-[4px] items-center text-body-small text-content-default whitespace-nowrap">
                 <span>{sessionCount}</span>
                 <span>{sessionCount === 1 ? 'session' : 'sessions'}</span>
               </div>
-              <span className="text-body-small leading-[16px] text-content-default tracking-[0.1px]">
+              <span className="text-body-small text-content-default">
                 ・
               </span>
-              <div className="flex gap-[4px] items-center text-body-small leading-[16px] text-content-default tracking-[0.1px] whitespace-nowrap">
+              <div className="flex gap-[4px] items-center text-body-small text-content-default whitespace-nowrap">
                 <span>{driverCount}</span>
                 <span>{driverCount === 1 ? 'participant' : 'participants'}</span>
               </div>
-              <span className="text-body-small leading-[16px] text-content-default tracking-[0.1px]">
+              <span className="text-body-small text-content-default">
                 ・
               </span>
-              <div className="flex gap-[4px] items-center text-body-small leading-[16px] text-content-default tracking-[0.1px] whitespace-nowrap">
+              <div className="flex gap-[4px] items-center text-body-small text-content-default whitespace-nowrap">
                 <span>Best:</span>
                 <span>{fastestDriver}</span>
               </div>

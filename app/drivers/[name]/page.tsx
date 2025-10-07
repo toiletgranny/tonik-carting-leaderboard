@@ -44,7 +44,7 @@ export default async function DriverDetailsPage({ params }: DriverDetailsPagePro
                   }}
                 >
                   <div className="flex gap-small isolate items-center p-default relative w-full">
-                    <p className="basis-0 text-body-large text-content-strong leading-[28px] uppercase grow min-h-px min-w-px z-[1]">
+                    <p className="basis-0 text-body-large text-content-strong uppercase grow min-h-px min-w-px z-[1]">
                       Statistics
                     </p>
                   </div>
@@ -52,34 +52,34 @@ export default async function DriverDetailsPage({ params }: DriverDetailsPagePro
                 {/* Stats grid */}
                 <div className="bg-border-muted flex flex-wrap gap-px items-start relative shrink-0 w-full">
                   <div className="basis-0 bg-background-muted flex flex-col gap-[4px] grow isolate items-start justify-center min-h-px min-w-[256px] p-default shrink-0">
-                    <p className="text-body-small text-content-default leading-[16px] tracking-[0.1px] w-full overflow-ellipsis overflow-hidden whitespace-nowrap z-[2]">
+                    <p className="text-body-small text-content-default w-full overflow-ellipsis overflow-hidden whitespace-nowrap z-[2]">
                       Best Lap
                     </p>
-                    <p className="text-body-large text-content-strong leading-[28px] uppercase w-full overflow-ellipsis overflow-hidden whitespace-nowrap z-[1]">
+                    <p className="text-body-large text-content-strong uppercase w-full overflow-ellipsis overflow-hidden whitespace-nowrap z-[1]">
                       {stats.best_lap.lap_time_display}
                     </p>
                   </div>
                   <div className="basis-0 bg-background-muted flex flex-col gap-[4px] grow isolate items-start justify-center min-h-px min-w-[256px] p-default shrink-0">
-                    <p className="text-body-small text-content-default leading-[16px] tracking-[0.1px] w-full overflow-ellipsis overflow-hidden whitespace-nowrap z-[2]">
+                    <p className="text-body-small text-content-default w-full overflow-ellipsis overflow-hidden whitespace-nowrap z-[2]">
                       Average Lap
                     </p>
-                    <p className="text-body-large text-content-strong leading-[28px] uppercase w-full overflow-ellipsis overflow-hidden whitespace-nowrap z-[1]">
+                    <p className="text-body-large text-content-strong uppercase w-full overflow-ellipsis overflow-hidden whitespace-nowrap z-[1]">
                       {formatLapTime(stats.average_time)}
                     </p>
                   </div>
                   <div className="basis-0 bg-background-muted flex flex-col gap-[4px] grow isolate items-start justify-center min-h-px min-w-[256px] p-default shrink-0">
-                    <p className="text-body-small text-content-default leading-[16px] tracking-[0.1px] w-full overflow-ellipsis overflow-hidden whitespace-nowrap z-[2]">
+                    <p className="text-body-small text-content-default w-full overflow-ellipsis overflow-hidden whitespace-nowrap z-[2]">
                       Total Laps Recorded
                     </p>
-                    <p className="text-body-large text-content-strong leading-[28px] uppercase w-full overflow-ellipsis overflow-hidden whitespace-nowrap z-[1]">
+                    <p className="text-body-large text-content-strong uppercase w-full overflow-ellipsis overflow-hidden whitespace-nowrap z-[1]">
                       {stats.total_laps}
                     </p>
                   </div>
                   <div className="basis-0 bg-background-muted flex flex-col gap-[4px] grow isolate items-start justify-center min-h-px min-w-[256px] p-default shrink-0">
-                    <p className="text-body-small text-content-default leading-[16px] tracking-[0.1px] w-full overflow-ellipsis overflow-hidden whitespace-nowrap z-[2]">
+                    <p className="text-body-small text-content-default w-full overflow-ellipsis overflow-hidden whitespace-nowrap z-[2]">
                       Total Events Recorded
                     </p>
-                    <p className="text-body-large text-content-strong leading-[28px] uppercase w-full overflow-ellipsis overflow-hidden whitespace-nowrap z-[1]">
+                    <p className="text-body-large text-content-strong uppercase w-full overflow-ellipsis overflow-hidden whitespace-nowrap z-[1]">
                       {stats.events_count}
                     </p>
                   </div>
@@ -121,7 +121,7 @@ export default async function DriverDetailsPage({ params }: DriverDetailsPagePro
                       >
                         <div className="flex gap-small isolate items-center p-default relative w-full">
                           <Calendar month={month} day={day} className="z-[2]" />
-                          <p className="basis-0 text-body-large text-content-strong leading-[28px] uppercase grow min-h-px min-w-px z-[1]">
+                          <p className="basis-0 text-body-large text-content-strong uppercase grow min-h-px min-w-px z-[1]">
                             {fullDate}
                           </p>
                         </div>

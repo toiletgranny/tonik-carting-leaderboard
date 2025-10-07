@@ -69,17 +69,17 @@ export function LapRow({ lap, showGap, gap, isTopThree, variant }: LapRowProps) 
           </div>
           <div className="basis-0 flex gap-[8px] grow items-start min-h-px min-w-px relative shrink-0 z-[2]">
             <div className="basis-0 flex flex-col gap-[4px] grow items-start min-h-px min-w-px relative shrink-0">
-              <p className="text-body-default text-content-strong leading-[24px] overflow-ellipsis overflow-hidden whitespace-nowrap w-full">
+              <p className="text-body-default text-content-strong overflow-ellipsis overflow-hidden whitespace-nowrap w-full">
                 {title}
               </p>
             </div>
             <div className="flex gap-[8px] items-baseline justify-end relative shrink-0">
               {showGap && gap && (
-                <p className="text-body-small text-content-default leading-[16px] tracking-[0.1px]">
+                <p className="text-body-small text-content-default">
                   {gap}
                 </p>
               )}
-              <p className="text-body-default text-content-strong leading-[24px] text-right">
+              <p className="text-body-default text-content-strong text-right">
                 {lap.lap_time_display}
               </p>
             </div>
@@ -142,17 +142,17 @@ export function LapRow({ lap, showGap, gap, isTopThree, variant }: LapRowProps) 
         </div>
         <div className="basis-0 flex gap-[8px] grow items-start min-h-px min-w-px relative shrink-0 z-[3]">
           <div className="basis-0 flex flex-col gap-[4px] grow items-start min-h-px min-w-px relative shrink-0">
-            <p className="text-body-default text-content-strong leading-[24px] overflow-ellipsis overflow-hidden whitespace-nowrap w-full">
+            <p className="text-body-default text-content-strong overflow-ellipsis overflow-hidden whitespace-nowrap w-full">
               {title}
             </p>
           </div>
           <div className="flex gap-[8px] items-baseline justify-end relative shrink-0">
             {showGap && gap && (
-              <p className="text-body-small text-content-default leading-[16px] tracking-[0.1px]">
+              <p className="text-body-small text-content-default">
                 {gap}
               </p>
             )}
-            <p className="text-body-default text-content-strong leading-[24px] text-right">
+            <p className="text-body-default text-content-strong text-right">
               {lap.lap_time_display}
             </p>
           </div>

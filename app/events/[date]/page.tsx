@@ -56,7 +56,7 @@ export default async function EventDetailsPage({ params }: EventDetailsPageProps
                       }}
                     >
                       <div className="flex flex-col isolate items-start justify-center p-default relative w-full">
-                        <p className="text-body-large text-content-strong leading-[28px] uppercase w-full z-[1]">
+                        <p className="text-body-large text-content-strong uppercase w-full z-[1]">
                           {sessionTime}
                         </p>
                       </div>

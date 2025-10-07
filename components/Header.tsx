@@ -48,13 +48,13 @@ export function Header({ title, subtitle = "Le Mans Jaryszki ・ 90 kg", showBac
             <Logo className="overflow-hidden relative shrink-0 size-[32px] text-white" />
           </div>
           <div className="flex flex-col gap-[8px] items-start justify-end min-h-[112px] uppercase w-full">
-            <p className="text-body-default text-content-default leading-[24px] w-full">
+            <p className="text-body-default text-content-default w-full">
               {subtitle}
             </p>
             {isLoading ? (
               <Skeleton className="h-[48px] rounded-[4px] shrink-0 w-[256px]" />
             ) : (
-              <h1 className="text-title text-content-strong font-medium leading-[48px] tracking-[-0.2px] w-full">
+              <h1 className="text-title text-content-strong w-full">
                 {title}
               </h1>
             )}

@@ -90,19 +90,19 @@ export function LeaderboardRow({
           </div>
           <div className="flex gap-[8px] items-start relative w-full z-[3]">
             <div className="basis-0 flex flex-col gap-[4px] grow items-start min-h-px min-w-px">
-              <p className="text-body-large leading-[28px] text-white uppercase w-full">
+              <p className="text-body-large text-white uppercase w-full">
                 {driverName}
               </p>
-              <p className="text-body-small leading-[16px] text-content-default tracking-[0.1px] w-full">
+              <p className="text-body-small text-content-default w-full">
                 {timestamp}
               </p>
             </div>
             <div className="flex flex-col gap-[4px] items-end justify-center text-right whitespace-nowrap">
-              <p className="text-body-large leading-[28px] text-white uppercase">
+              <p className="text-body-large text-white uppercase">
                 {lapTime}
               </p>
               {showGap && gap && (
-                <p className="text-body-small leading-[16px] text-content-default tracking-[0.1px]">
+                <p className="text-body-small text-content-default">
                   {gap}
                 </p>
               )}
@@ -128,19 +128,19 @@ export function LeaderboardRow({
         </div>
         <div className="basis-0 flex gap-[8px] grow items-start min-h-px min-w-px relative z-[2]">
           <div className="basis-0 flex flex-col gap-[4px] grow items-start min-h-px min-w-px">
-            <p className="text-body-default leading-[24px] text-white w-full">
+            <p className="text-body-default text-white w-full">
               {driverName}
             </p>
-            <p className="text-body-small leading-[16px] text-content-default tracking-[0.1px] w-full">
+            <p className="text-body-small text-content-default w-full">
               {timestamp}
             </p>
           </div>
           <div className="flex flex-col gap-[4px] items-end justify-center text-right whitespace-nowrap">
-            <p className="text-body-default leading-[24px] text-white">
+            <p className="text-body-default text-white">
               {lapTime}
             </p>
             {showGap && gap && (
-              <p className="text-body-small leading-[16px] text-content-default tracking-[0.1px]">
+              <p className="text-body-small text-content-default">
                 {gap}
               </p>
             )}
