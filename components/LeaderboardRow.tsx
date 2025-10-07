@@ -38,6 +38,7 @@ export function LeaderboardRow({
   if (isTopThree) {
     return (
       <Link
+        prefetch={false}
         href={`/drivers/${encodeURIComponent(driverName)}`}
         className="bg-black border-b border-border-muted w-full block hover:bg-background-default"
       >
@@ -115,8 +116,9 @@ export function LeaderboardRow({
 
   return (
     <Link
+      prefetch={false}
       href={`/drivers/${encodeURIComponent(driverName)}`}
-      className="bg-black border-b border-border-muted w-full block hover:bg-background-default transition-colors"
+      className="bg-black border-b border-border-muted w-full block hover:bg-background-default"
     >
       <div className="flex gap-small isolate items-center overflow-hidden p-default relative w-full">
         <div className="bg-background-default border border-border-muted flex flex-col gap-[8px] items-center justify-center p-[8px] relative rounded-full shrink-0 size-[40px] z-[3]">
