@@ -8,6 +8,7 @@ interface PageShellProps {
   showBackButton?: boolean;
   headerSlot?: ReactNode;
   contentClassName?: string;
+  headerIsLoading?: boolean;
 }
 
 export function PageShell({
@@ -17,12 +18,13 @@ export function PageShell({
   showBackButton,
   headerSlot,
   contentClassName,
+  headerIsLoading,
 }: PageShellProps) {
   return (
     <div className="bg-black flex flex-col items-center relative h-screen">
       {headerSlot ?? (
-        headerTitle ? (
-          <Header title={headerTitle} subtitle={headerSubtitle} showBackButton={showBackButton} />
+        (headerIsLoading || !!headerTitle) ? (
+          <Header title={headerTitle ?? ''} subtitle={headerSubtitle} showBackButton={showBackButton} isLoading={headerIsLoading} />
         ) : null
       )}
 

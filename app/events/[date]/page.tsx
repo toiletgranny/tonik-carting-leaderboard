@@ -30,7 +30,7 @@ export default async function EventDetailsPage({ params }: EventDetailsPageProps
   });
 
   return (
-    <PageShell headerTitle={eventDate} headerSubtitle="Event Details" showBackButton>
+    <PageShell headerTitle={eventDate} showBackButton>
             {sessions.map((sessionTime) => {
               const sessionLaps = lapTimes.filter(
                 (lap) => lap.session_time === sessionTime

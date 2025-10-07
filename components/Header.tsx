@@ -3,14 +3,16 @@
 import { Logo } from './Logo';
 import { IconButton } from './IconButton';
 import { useRouter } from 'next/navigation';
+import { Skeleton } from './Skeleton';
 
 interface HeaderProps {
   title: string;
   subtitle?: string;
   showBackButton?: boolean;
+  isLoading?: boolean;
 }
 
-export function Header({ title, subtitle = "Le Mans Jaryszki ・ 90 kg", showBackButton = false }: HeaderProps) {
+export function Header({ title, subtitle = "Le Mans Jaryszki ・ 90 kg", showBackButton = false, isLoading = false }: HeaderProps) {
   const router = useRouter();
 
   return (
@@ -49,9 +51,13 @@ export function Header({ title, subtitle = "Le Mans Jaryszki ・ 90 kg", showBac
             <p className="text-body-default text-content-default leading-[24px] w-full">
               {subtitle}
             </p>
-            <h1 className="text-title text-content-strong font-medium leading-[48px] tracking-[-0.2px] w-full">
-              {title}
-            </h1>
+            {isLoading ? (
+              <Skeleton className="h-[48px] rounded-[4px] shrink-0 w-[256px]" />
+            ) : (
+              <h1 className="text-title text-content-strong font-medium leading-[48px] tracking-[-0.2px] w-full">
+                {title}
+              </h1>
+            )}
           </div>
         </div>
       </div>

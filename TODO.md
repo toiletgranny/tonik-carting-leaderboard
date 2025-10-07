@@ -6,7 +6,9 @@
 [x] Fix the gradient in the footer to include borders
 [x] Take care of the loading state
 [o] Approach hover states globally
-[ ] Mobile designs
+[x] Mobile designs
 [x] Unify layouts
 [ ] Add page transitions
 [ ] Accessability
+[x] Look into laggy hover states in Leaderboard
+[x] Look into laggy Events trasntition
