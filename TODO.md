@@ -8,7 +8,7 @@
 [o] Approach hover states globally
 [x] Mobile designs
 [x] Unify layouts
-[ ] Add page transitions
+[x] Add page transitions
 [ ] Accessability
 [x] Look into laggy hover states in Leaderboard
 [x] Look into laggy Events trasntition

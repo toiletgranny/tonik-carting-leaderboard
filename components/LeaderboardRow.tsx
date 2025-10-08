@@ -38,7 +38,6 @@ export function LeaderboardRow({
   if (isTopThree) {
     return (
       <Link
-        prefetch={false}
         href={`/drivers/${encodeURIComponent(driverName)}`}
         className="bg-background-muted border-b border-border-muted w-full block hover:bg-background-default"
       >
@@ -116,7 +115,6 @@ export function LeaderboardRow({
 
   return (
     <Link
-      prefetch={false}
       href={`/drivers/${encodeURIComponent(driverName)}`}
       className="bg-background-muted border-b border-border-muted w-full block hover:bg-background-default"
     >
