@@ -28,7 +28,7 @@ export function Header({ title, subtitle = "Le Mans Jaryszki ・ 90 kg", showBac
   return (
     <div className="bg-background-muted border-b border-border-muted w-full">
       <div className="flex flex-col items-center justify-center px-section-padding py-0">
-        <div className="flex flex-col gap-default items-start max-w-section overflow-hidden px-0 py-large w-full">
+        <div className="flex flex-col gap-large items-start max-w-section overflow-hidden px-0 py-large w-full">
           <div className="flex gap-small items-center">
             {showBackButton && (
               <div className="flex items-center h-full">
@@ -57,7 +57,7 @@ export function Header({ title, subtitle = "Le Mans Jaryszki ・ 90 kg", showBac
             )}
             <Logo className="overflow-hidden relative shrink-0 size-[32px] text-white" />
           </div>
-          <div className="flex flex-col gap-[8px] items-start justify-end min-h-[112px] uppercase w-full">
+          <div className="flex flex-col gap-[8px] items-start justify-end desktop:min-h-[112px] uppercase w-full">
             <p className="text-body-default text-content-default w-full">
               {subtitle}
             </p>
